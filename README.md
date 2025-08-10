@@ -65,11 +65,14 @@ make       # or make gui for waveform debugging
 make run
 ```
 Your goal is to match the simulation results from make ref exactly.
+
 **Testing**
+
 * Testbench: tb_npuexetop.sv is provided to drive and validate your design.
 * Ensure that the outputs from your Verilog implementation match those from the reference Chisel-generated design.
 
 **Summary**
+
 By completing this lab, you will:
 * Gain experience translating high-level hardware descriptions into Verilog.
 * Learn how to verify hardware modules using industry-standard tools (VCS and Verdi).
