@@ -71,6 +71,7 @@ Your goal is to match the simulation results from make ref exactly.
 * Testbench: tb_npuexetop.sv is provided to drive and validate your design.
 * Ensure that the outputs from your Verilog implementation match those from the reference Chisel-generated design.
 * If you receive the message 'SUCCESS: Test Passed!', it means that the code has been verified.
+* It is not necessary to match the clock cycles exactly.
 
 **Summary**
 
